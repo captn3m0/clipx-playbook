@@ -5,6 +5,7 @@
     - redis_bind: 127.0.0.1
   roles:
   - rvm_io.rvm1-ruby
+  - agios.unicorn-rvm
   - Ansibles.postgresql
   - DavidWittman.redis
   - kunik.elasticsearch
