@@ -7,3 +7,5 @@
   with_file:
     - ../public_keys/codeship-clipx.pub
     - ../public_keys/nemo.pub
+- name: Install postgres-dev packages
+  apt: name=postgresql-server-dev-9.3 state=present
