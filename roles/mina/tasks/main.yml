@@ -6,3 +6,4 @@
                   key="{{ item }}"
   with_file:
     - ../public_keys/codeship-clipx.pub
+    - ../public_keys/nemo.pub
