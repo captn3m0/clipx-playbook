@@ -6,6 +6,7 @@
   roles:
   - rvm_io.rvm1-ruby
   - agios.unicorn-rvm
+  - agios.nginx-unicorn
   - Ansibles.postgresql
   - DavidWittman.redis
   - kunik.elasticsearch
