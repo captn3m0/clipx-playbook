@@ -4,6 +4,7 @@
   vars:
     - redis_bind: 127.0.0.1
   roles:
+  - rvm_io.rvm1-ruby
   - Ansibles.postgresql
   - DavidWittman.redis
   - kunik.elasticsearch
