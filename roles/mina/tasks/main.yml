@@ -1,0 +1,8 @@
+---
+- name: Create directory for clipx
+  file: path=/var/www/clipx owner=ubuntu group=ubuntu state=directory
+- name: Copy codeship public key
+  authorized_key: user=ubuntu 
+                  key="{{ item }}"
+  with_file:
+    - ../public_keys/codeship-clipx.pub

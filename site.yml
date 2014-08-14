@@ -4,6 +4,7 @@
   vars:
     - redis_bind: 127.0.0.1
   roles:
+  - mina
   - rvm_io.rvm1-ruby
   - agios.unicorn-rvm
   - agios.nginx-unicorn
