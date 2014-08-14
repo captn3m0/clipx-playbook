@@ -1,5 +1,8 @@
 ---
 - hosts: all
   sudo: true
+  vars:
+    - redis_bind: 127.0.0.1
   roles:
   - Ansibles.postgresql
+  - DavidWittman.redis
