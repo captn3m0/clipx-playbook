@@ -3,4 +3,4 @@ nginx_sites:
   - name: 'clipx'
     server_name: 'clipx.captnemo.in'
     access_log:
-      format: 'main'
+      format: ''
