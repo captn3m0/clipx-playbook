@@ -1,8 +1,9 @@
 ---
 - hosts: all
   sudo: true
-  vars:
-    - redis_bind: 127.0.0.1
+  vars_files:
+    # This just defines a single clipx_secrets variable (which is a string containg the .env file)
+    - clipx-secrets.yml
   roles:
   - mina
   - rvm_io.rvm1-ruby

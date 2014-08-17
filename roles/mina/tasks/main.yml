@@ -9,3 +9,5 @@
     - ../public_keys/nemo.pub
 - name: Install postgres-dev packages
   apt: name=postgresql-server-dev-9.3 state=present
+- name: Copy over the secrets environment file
+  copy: content="{{ clipx_secrets }}" dest="/var/www/clipx/shared/.env"
