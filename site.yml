@@ -6,8 +6,7 @@
     - clipx-secrets.yml
   roles:
   - mina
-  - rvm_io.rvm1-ruby
-  - agios.unicorn-rvm
+  - geerlingguy.ruby
   - agios.nginx-unicorn
   - Ansibles.postgresql
   - DavidWittman.redis

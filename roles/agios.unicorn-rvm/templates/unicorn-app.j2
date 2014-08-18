@@ -1,4 +1,0 @@
-RAILS_ENV={{ item.env | default('production') }}
-RAILS_ROOT={{ item.root | default('/var/www/' + item.name + '/current') }}
-UNICORN=/usr/local/rvm/wrappers/{{ item.name }}/unicorn_rails
-
