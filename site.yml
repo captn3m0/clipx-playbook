@@ -5,7 +5,7 @@
     # This just defines a single clipx_secrets variable (which is a string containg the .env file)
     - clipx-secrets.yml
   roles:
-  - mina
+  - { role: mina, tags: [ 'mina'] }
   - geerlingguy.ruby
   - agios.nginx-unicorn
   - Ansibles.postgresql
