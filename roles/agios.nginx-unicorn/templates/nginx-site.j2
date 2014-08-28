@@ -1,7 +1,7 @@
 {% set app = item.root | default('/var/www/' + item.name + '/current') %}
 {% set root = app + '/public' %}
 upstream unicorn_{{ item.name }} {
-    server unix:{{ app }}/tmp/sockets/unicorn.sock;
+    server unix:{{ app }}/tmp/unicorn.sock;
 }
 
 server {
