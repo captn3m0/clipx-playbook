@@ -1,6 +1,6 @@
 ---
 nginx_sites:
   - name: 'clipx'
-    server_name: 'clipx.captnemo.in'
+    server_name: 'clipx.me'
     access_log:
       format: ''
