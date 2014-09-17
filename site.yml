@@ -8,6 +8,5 @@
   - { role: mina, tags: [ 'mina'] }
   - geerlingguy.ruby
   - agios.nginx-unicorn
-  - Ansibles.postgresql
   - DavidWittman.redis
   - kunik.elasticsearch
