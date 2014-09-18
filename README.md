@@ -8,6 +8,10 @@
 
     ansible-playbook -i hosts site.yml  --vault-password-file vault_pass.sh
 
+or
+
+    ansible-playbook -i hosts site.yml  --vault-password-file vault_pass.sh --tags [tag,names]
+
 #Updating the secret environment variables
 
     ansible-vault edit clipx-secrets.yml  --vault-password-file vault_pass.sh
